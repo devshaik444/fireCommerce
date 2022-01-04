@@ -1,0 +1,61 @@
+/*All the reuseble things will be styled here*/
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.navbar{
+    background-color: blueviolet !important; /*!important is used cuz we overwrite boostrap claass*/
+
+}
+.nav-link{
+    color: #fff !important;
+}
+.navbar-brand{
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+.content{
+    padding-top: 80px;
+}
+
+.footer{
+    background-color: rgb(13, 136, 136);
+    text-align: center;
+    padding: 10px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+button{
+    background-color:rgb(17, 84, 207);
+    box-shadow: none;
+    border: 1px solid rgb(99, 97, 97);
+    color: #fff;
+    padding: 5px;
+}
+
+button:hover{
+    background-color: orangered;
+}
+
+.loader{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+}
+.spinner-border{
+    height: 100px;
+    width: 100px;
+}
+
+a{
+    text-decoration: none;
+}
