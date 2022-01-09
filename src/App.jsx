@@ -12,6 +12,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import {
   BrowserRouter , Navigate, Route, Routes
 } from "react-router-dom";
+import OrdersPage from "./pages/OrdersPage";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Routes>
           <Route  path="/" exact element={<ProtectedRoutes><Homepage /></ProtectedRoutes>} />
           <Route  path="/cart" exact element={<ProtectedRoutes><Cartpage /></ProtectedRoutes>} />
+          <Route  path="/orders" exact element={<ProtectedRoutes><OrdersPage /></ProtectedRoutes>} />
           <Route  path="/productinfo/:productid" exact element={<ProtectedRoutes><Productinfo /></ProtectedRoutes>} />
           <Route  path="/login" exact element={<LoginPage />} />
           <Route  path="/register" exact element={<RegisterPage/>} />
