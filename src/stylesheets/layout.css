@@ -59,3 +59,13 @@ button:hover{
 a{
     text-decoration: none;
 }
+select{
+    margin-left: 20px;
+    border-color: rgb(18, 18, 206);
+    margin-bottom: 10px;
+    border-width: 20px;
+}
+input{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
